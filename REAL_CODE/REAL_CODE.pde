@@ -17,22 +17,23 @@ void setup () {
   print("Screen Dimensions" + "\n My width is " + displayWidth + "\n My Height is " + displayHeight);
 
   //Coordinates for the GUI
-  rect(0,0,200,1000); //title
-  text(); // Title "Cue Cards"
-  rect(200,0,1719,150); //title
-  rect(200,150,1400,600); //title
-  rect(1600,150,319,300); //User Profile
-  rect(1600,450,319,300); //Progress
-  rect(200,750,1719,100); //text
+  rect(0, 0, 200, 1000); //title
+  fill(0); //Black
+  text(title, 25, 75); // Title "Cue Cards"
+  rect(200, 0, 1719, 150); //title
+  rect(200, 150, 1400, 600); //title
+  rect(1600, 150, 319, 300); //User Profile
+  rect(1600, 450, 319, 300); //Progress
+  rect(200, 750, 1719, 100); //text
   
-  rect(200,850,1719,150); //legend
-  rect(200,850,300,200); //legendPREV
+  rect(200, 850, 1719, 150); //legend
+  rect(200, 850, 300, 200); //legendPREV
   
-  rect(500,850,250,200);
-  rect(750,850,250,200);
-  rect(950,850,250,200);
-  rect(1150,850,250,200);
-  rect(1350,850,250,200);
+  rect(500, 850, 250, 200);
+  rect(750, 850, 250, 200);
+  rect(950, 850, 250, 200);
+  rect(1150, 850, 250, 200);
+  rect(1350, 850, 250, 200);
   
   rect(1600,850,319,200); //legendNEXT
  }
