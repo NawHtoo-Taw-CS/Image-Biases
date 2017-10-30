@@ -7,6 +7,9 @@
 */
 
 // global variables
+String titlefont = "Cue Cards";
+
+PFont titleFont = createFont ("Arial-Black-48",48)
 
 void setup () {
   size(1920,1080); // Largest canvas size without fullScreen()
