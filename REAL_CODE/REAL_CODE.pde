@@ -9,7 +9,7 @@
 // global variables
 String titlefont = "Cue Cards";
 
-PFont titleFont = createFont ("Arial-Black-48",48)
+PFont titleFont = createFont ("Arial-Black-48",48) //use.ttf or .vlw
 
 void setup () {
   size(1920,1080); // Largest canvas size without fullScreen()
@@ -18,6 +18,7 @@ void setup () {
 
   //Coordinates for the GUI
   rect(0,0,200,1000); //title
+  text(); // Title "Cue Cards"
   rect(200,0,1719,150); //title
   rect(200,150,1400,600); //title
   rect(1600,150,319,300); //User Profile
